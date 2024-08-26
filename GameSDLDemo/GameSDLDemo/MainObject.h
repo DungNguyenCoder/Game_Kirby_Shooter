@@ -9,7 +9,7 @@
 
 #define WIDTH_MAIN_OBJECT 72
 #define HEIGHT_MAIN_OBJECT 70
-#define SPEED_MAIN_OBJECT 10
+#define SPEED_MAIN_OBJECT 12
 
 class MainObject : public BaseObject
 {

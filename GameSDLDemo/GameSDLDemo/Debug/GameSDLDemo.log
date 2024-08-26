@@ -1,7 +1,7 @@
-﻿Build started 26/08/2024 12:20:04 PM.
+﻿Build started 26/08/2024 04:16:20 PM.
      1>Project "E:\Game\GameSDLDemo\GameSDLDemo\GameSDLDemo.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AmoObject.cpp BaseObject.cpp Common_Function.cpp Explosion.cpp Heart.cpp MainObject.cpp Text.cpp ThreatsObject.cpp main.cpp
          main.cpp
      1>e:\game\gamesdldemo\gamesdldemo\main.cpp(100): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
      1>e:\game\gamesdldemo\gamesdldemo\main.cpp(195): warning C4018: '<' : signed/unsigned mismatch
@@ -10,6 +10,33 @@
      1>e:\game\gamesdldemo\gamesdldemo\main.cpp(256): warning C4018: '<' : signed/unsigned mismatch
      1>e:\game\gamesdldemo\gamesdldemo\main.cpp(267): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
      1>e:\game\gamesdldemo\gamesdldemo\main.cpp(268): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         ThreatsObject.cpp
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(9): warning C4244: '=' : conversion from 'double' to 'Sint16', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(81): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(99): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\threatsobject.cpp(115): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+         Text.cpp
+         MainObject.cpp
+     1>e:\game\gamesdldemo\gamesdldemo\mainobject.cpp(59): warning C4244: 'argument' : conversion from 'double' to 'const int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\mainobject.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\mainobject.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\mainobject.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\mainobject.cpp(127): warning C4553: '==' : operator has no effect; did you intend '='?
+         Heart.cpp
+     1>e:\game\gamesdldemo\gamesdldemo\heart.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+         Explosion.cpp
+         Common_Function.cpp
+         BaseObject.cpp
+         AmoObject.cpp
+     1>e:\game\gamesdldemo\gamesdldemo\amoobject.cpp(33): warning C4244: '-=' : conversion from 'double' to 'Sint16', possible loss of data
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.exe" /INCREMENTAL /NOLOGO SDL.lib SDLMain.lib SDL_image.lib SDL_mixer.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.lib" /MACHINE:X86 Debug\AmoObject.obj
          Debug\BaseObject.obj
@@ -25,4 +52,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.45
+Time Elapsed 00:00:09.48

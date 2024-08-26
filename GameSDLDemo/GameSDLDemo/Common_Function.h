@@ -12,8 +12,8 @@
 const int SCREEN_WIDTH = 1600;
 const int SCREEN_HEIGHT = 800;
 const int SCREEN_BPP = 32;
-const int WIDTH_BACKGROUND = 4800;
-const int HEIGHT_BACKGROUND = 600;
+const int WIDTH_BACKGROUND = 3200;
+const int HEIGHT_BACKGROUND = 800;
 const int NUM_THREATS = 10;
 
 static SDL_Surface* g_screen = NULL;

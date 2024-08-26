@@ -48,7 +48,7 @@ int main(int arc, char*argv[])
 	if (Init() == false)
 		return 0;
 
-	g_bkground = SDLCommonFunc::LoadImage("kirby_bk.jpeg");	
+	g_bkground = SDLCommonFunc::LoadImage("kirby_bk.jpg");	
 	if (g_bkground == NULL)
 	{
 	return 0;
@@ -147,29 +147,29 @@ int main(int arc, char*argv[])
 		//apply background
 
 		//use one picture
- 		bkgn_x -= 2;
- 		SDLCommonFunc::ApplySurface(g_bkground, g_screen, bkgn_x, 0);
-  		SDLCommonFunc::ApplySurface(g_bkground, g_screen, bkgn_x + SCREEN_WIDTH,0);
- 		if(bkgn_x <= -SCREEN_WIDTH)
- 			bkgn_x = 0;
+//  		bkgn_x -= 2;
+//  		SDLCommonFunc::ApplySurface(g_bkground, g_screen, bkgn_x, 0);
+//   		SDLCommonFunc::ApplySurface(g_bkground, g_screen, bkgn_x + SCREEN_WIDTH,0);
+//  		if(bkgn_x <= -SCREEN_WIDTH)
+//  			bkgn_x = 0;
 
 		//use long picture
-// 		if(is_run_screen == true)
-// 		{
-// 			bkgn_x -= 2;
-// 			if(bkgn_x <= -(WIDTH_BACKGROUND - SCREEN_WIDTH))
-// 			{
-// 				is_run_screen = false;
-// 			}
-// 			else
-// 			{
-// 				SDLCommonFunc::ApplySurface(g_bkground,g_screen,bkgn_x,0);
-// 			}
-// 		}
-// 		else
-// 		{
-// 			SDLCommonFunc::ApplySurface(g_bkground,g_screen,bkgn_x,0);
-// 		}
+		if(is_run_screen == true)
+		{
+			bkgn_x -= 2;
+			if(bkgn_x <= -(WIDTH_BACKGROUND - SCREEN_WIDTH))
+			{
+				is_run_screen = false;
+			}
+			else
+			{
+				SDLCommonFunc::ApplySurface(g_bkground,g_screen,bkgn_x,0);
+			}
+		}
+		else
+		{
+			SDLCommonFunc::ApplySurface(g_bkground,g_screen,bkgn_x,0);
+		}
 
 		//show Kirby heart
 		kirby_heart.Render(g_screen);
