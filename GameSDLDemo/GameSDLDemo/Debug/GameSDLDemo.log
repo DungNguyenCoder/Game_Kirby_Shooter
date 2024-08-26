@@ -1,0 +1,28 @@
+﻿Build started 26/08/2024 12:20:04 PM.
+     1>Project "E:\Game\GameSDLDemo\GameSDLDemo\GameSDLDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(100): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(215): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(216): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(256): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(267): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>e:\game\gamesdldemo\gamesdldemo\main.cpp(268): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.exe" /INCREMENTAL /NOLOGO SDL.lib SDLMain.lib SDL_image.lib SDL_mixer.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Game\GameSDLDemo\Debug\GameSDLDemo.lib" /MACHINE:X86 Debug\AmoObject.obj
+         Debug\BaseObject.obj
+         Debug\Common_Function.obj
+         Debug\Explosion.obj
+         Debug\Heart.obj
+         Debug\main.obj
+         Debug\MainObject.obj
+         Debug\Text.obj
+         Debug\ThreatsObject.obj
+         GameSDLDemo.vcxproj -> E:\Game\GameSDLDemo\Debug\GameSDLDemo.exe
+     1>Done Building Project "E:\Game\GameSDLDemo\GameSDLDemo\GameSDLDemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.45
